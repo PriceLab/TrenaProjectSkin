@@ -1,3 +1,10 @@
+inst/extdata/covariates/covariates.RData
+inst/extdata/expression/gtex.fibroblast.RData
+inst/extdata/expression/gtex.primary.RData
+inst/extdata/expression/mtx.protectedAndExposed.RData
+inst/extdata/expression/mtx.protectedAndExposedLowVarianceGenesEliminated.RData
+inst/extdata/regulatoryModels/tbl.model.RData
+
 # History files
 .Rhistory
 .Rapp.history
