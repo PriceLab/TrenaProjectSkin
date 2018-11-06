@@ -33,7 +33,7 @@ TrenaProjectSkin <- function(quiet=TRUE)
 {
    genomeName <- "hg38"
 
-   nominated.genes <- c("COL1A1", "COL3A1", "COL4A1", "COL4A2", "COL5A1", "COL5A2", "COL6A1",
+   nominated.genes <- c("COL1A1", "COL1A2", "COL3A1", "COL4A1", "COL4A2", "COL5A1", "COL5A2", "COL6A1",
                         "COL6A2", "COL6A3", "COL7A1", "COL8A1", "COL9A1", "CREB3L1", "GLI2")
 
    footprintDatabaseHost <- "khaleesi.systemsbiology.net"
