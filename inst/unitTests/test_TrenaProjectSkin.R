@@ -73,7 +73,7 @@ test_setTargetGene <- function()
 
    message(sprintf("    transcripts"))
    tbl.transcripts <- getTranscriptsTable(skin.project)
-   checkTrue(nrow(tbl.transcripts) >= 9)
+   checkTrue(nrow(tbl.transcripts) == 1)
 
    message(sprintf("    enhancers"))
    tbl.enhancers <- getEnhancers(skin.project)

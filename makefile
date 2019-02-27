@@ -6,7 +6,7 @@ build:
 	(cd ..; R CMD build --no-build-vignettes trenaProjectSkin)
 
 install:
-	(cd ..; R CMD INSTALL trenaProjectSkin)
+	(cd ..; R CMD INSTALL --no-test-load trenaProjectSkin)
 
 check:
 	(cd ..; R CMD check `ls -t trenaProjectSkin) | head -1`)

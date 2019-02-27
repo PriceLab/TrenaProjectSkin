@@ -1,7 +1,7 @@
 Package: TrenaProjectSkin
 Title: Skin gene expression (and etc) data for Rich Gelinas's collagen studies
-Date: 2018-11-06
-Version: 0.99.1
+Date: 2019-02-26
+Version: 0.99.2
 Authors@R: person("Paul", "Shannon", email = "pshannon@systemsbiology.org", role = c("aut", "cre"))
 Description: Provides a single source for all trena IGAP/AD brain models, from multiple sources, with
    several normalization schemes, along with variants, imputed variants, and sample phenotypes.
@@ -10,4 +10,4 @@ Depends: R (>= 3.5.0), TrenaProject
 License: MIT
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
